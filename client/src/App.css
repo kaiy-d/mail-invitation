@@ -1,0 +1,100 @@
+@import url(~bootstrap/dist/css/bootstrap.css);
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}   
+
+.App-link {
+  color: #09d3ac;
+}
+
+.header-area {
+  display: flex;
+  justify-content: center;
+}
+
+.marginTop {
+  margin-top: 100px !important;
+}
+
+.row {
+  padding: 0 24px;
+}
+
+.Text_Field_Style {
+  width: 100%;
+}
+
+.icon_area {
+  display: flex;
+  align-items: center;
+}
+
+.valid-area p {
+  float: right;
+  color: pink;
+  font-size: 12px;
+  margin-bottom: 10px !important;
+}
+
+.add-area {
+  display: flex;
+}
+
+.add-area p {
+  color: blue;
+  text-decoration: underline;
+}
+
+.add-area .p-readonly {
+  color: #282c34;
+  text-decoration: none;
+}
+
+.add-area .p-readonly:hover {
+  cursor: text;
+}
+
+.add-area p:hover {
+  cursor: pointer;
+}
+
+.remove-area:hover {
+  cursor: pointer;
+}
+
+.multi-area p {
+  display: contents;
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+
+.text-multi-area {
+  width: 100%;
+}
+
+.tip-area-bold {
+  display: inline;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.tip-area {
+  display: inline;
+  font-size: 10px;
+}

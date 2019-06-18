@@ -1,0 +1,27 @@
+{
+  "name": "react-node-multi-invitation",
+  "version": "1.0.0",
+  "description": "Feed Widget on using create-react-app with a Node Express Backend",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "start": "node index.js",
+    "build": "cd client && yarn start"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.1"
+  },
+  "proxy": "http://localhost:5000",
+  "devDependencies": {},
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
+}
